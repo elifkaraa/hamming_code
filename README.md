@@ -1,4 +1,4 @@
-# 🧮 Hamming(13,8) SEC-DED Simülatörü
+# 🧮 Hamming SEC-DED Simülatörü
 ## 📌 Proje Tanımı
 Bu proje, Hamming SEC-DED (Single Error Correction – Double Error Detection) kodlama ve düzeltme simülatörüdür. Projede Python dili ve Tkinter kütüphanesi kullanılmıştır.
 
@@ -50,6 +50,23 @@ Program, Tkinter kütüphanesi kullanılarak oluşturulmuş basit ve kullanıcı
 **hata_uret()**:Kullanıcının belirttiği pozisyonda Hamming kodunda hata oluşturur ve sonucu gösterir.
 
 **düzelt_ve_göster()**:Kodda hata varsa tespit eder; tek bit hatasını düzeltir, çift hata varsa uyarır ve sonucu arayüzde bildirir.
+# #🔍 Kullanım Senaryosu
+**1**:Kullanıcı 8, 16 veya 32 bit uzunluğunda, örneğin "11010101" gibi bir ikili veri girer.
+
+**2**:"Hamming Kodu Oluştur" butonuna basar.
+
+**3**:Uygulama, girdiye göre 13 veya uygun uzunlukta Hamming SEC-DED kodunu hesaplar ve gösterir.
+
+**4**:Kullanıcı, "Hata Oluştur" kısmına bir pozisyon numarası (örneğin: 5) girer.
+
+**5**:Belirtilen pozisyondaki bit terslenerek hata enjekte edilir.
+
+**6**:"Düzelt ve Göster" butonuna basılır.
+
+**7**:Sistem hatayı tespit eder ve tek bitlik hataları düzeltir; çift bitli hatalar varsa uyarı verir.
+## 🎥 Demo & Kaynak
+🔗 Demo Videosu: https:https://youtu.be/bakLMbq16XY
+🧷 GitHub Linki: 
 
 
 
