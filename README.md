@@ -50,7 +50,7 @@ Program, Tkinter kütüphanesi kullanılarak oluşturulmuş basit ve kullanıcı
 **hata_uret()**:Kullanıcının belirttiği pozisyonda Hamming kodunda hata oluşturur ve sonucu gösterir.
 
 **düzelt_ve_göster()**:Kodda hata varsa tespit eder; tek bit hatasını düzeltir, çift hata varsa uyarır ve sonucu arayüzde bildirir.
-# #🔍 Kullanım Senaryosu
+# # 🔍 Kullanım Senaryosu
 **1**:Kullanıcı 8, 16 veya 32 bit uzunluğunda, örneğin "11010101" gibi bir ikili veri girer.
 
 **2**:"Hamming Kodu Oluştur" butonuna basar.
@@ -66,7 +66,7 @@ Program, Tkinter kütüphanesi kullanılarak oluşturulmuş basit ve kullanıcı
 **7**:Sistem hatayı tespit eder ve tek bitlik hataları düzeltir; çift bitli hatalar varsa uyarı verir.
 ## 🎥 Demo & Kaynak
 🔗 Demo Videosu: https:https://youtu.be/bakLMbq16XY
-🧷 GitHub Linki: 
+🧷 GitHub Linki: https://github.com/elifkaraa/hamming_code
 
 
 
